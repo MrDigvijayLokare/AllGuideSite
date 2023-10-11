@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMPbook</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <style>
+    /* CSS code goes here */
+    /* google font  */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
+    * {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      scroll-padding-top: 2rem;
+      box-sizing: border-box;
+    }
+
+    /* rest of your CSS code */
+    /* ... */
+  </style>
+</head>
+
+<body>
+  <!-- header  -->
+  <nav class="navbar bg-primary navbar-expand-lg body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="/index.html"> <img src="image/icon4.png" alt=""></a>
+      <div class="brand">AllGuideSite</div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" id="myInput" placeholder="Chapter Name" onkeyup="search()"
+            aria-label="Search">
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- home -->
+  <section class="home" id="home">
+    <div class="home-text container">
+      <!-- <img src="home.jpg" alt=""> -->
+      <h2 class="home-title">Study Smart Study Hard</h2>
+      <span class="home-subtitle">10th Class</span>
+    </div>
+  </section>
+  <!-- filter  -->
+
+
+
+
+  <div class="post-filter container">
+
+
+    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Subject
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item filter-item" href="#" data-filter='mathsp2'>Maths P-1</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='mathsp1'>Maths P-2</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='maths'>Sanskrit</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='science1'>Science P-1</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='science2'>Science P-2</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='marathi'>Marathi</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='hindi'>Hindi</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='english'>English</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='history'>History </a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='political_science'>Political Science </a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='geography'>Geography </a></li>
+
+
+    </ul>
+  </div>
+
+  <section class="post container" id="myTable">
+    <!-- maths p-1  -->
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.1</h5>
+        <p class="card-text post-decription">1 Linear Equations in Two Variables</p>
+        <a href="allpdf/class10_math_1.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.2</h5>
+        <p class="card-text post-decription">2 Quadratic Equations</p>
+        <a href="allpdf/class10_math_1.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.3</h5>
+        <p class="card-text post-decription">3 Arithmetic Progression</p>
+        <a href="allpdf/class10_math_1.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.4</h5>
+        <p class="card-text post-decription"> 4 Financial Planning</p>
+        <a href="allpdf/class10_math_1.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.5</h5>
+        <p class="card-text post-decription">5 Probability</p>
+        <a href="allpdf/class10_math_1.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.6</h5>
+        <p class="card-text post-decription">6 Statistics</p>
+        <a href="allpdf/class10_math_1.6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <!-- part 2 -->
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.1</h5>
+        <p class="card-text post-decription">1 Similarity </p>
+        <a href="allpdf/class10_math_2.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.2</h5>
+        <p class="card-text post-decription">2 Pythagoras Theorem</p>
+        <a href="allpdf/class10_math_2.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.3</h5>
+        <p class="card-text post-decription">3 Circle</p>
+        <a href="allpdf/class10_math_2.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.4</h5>
+        <p class="card-text post-decription">4 Geometric Constructions</p>
+        <a href="allpdf/class10_math_2.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.5</h5>
+        <p class="card-text post-decription">5 Co-ordinate</p>
+        <a href="allpdf/class10_math_2.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.6</h5>
+        <p class="card-text post-decription"> 6 Trigonometry</p>
+        <a href="allpdf/class10_math_2.6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.7</h5>
+        <p class="card-text post-decription"> 7 Mensuration</p>
+        <a href="allpdf/class10_math_2.7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <!-- sanskrit  -->
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription">1 आद्यकृषक: पृथुवैन्यः (गद्यम्)</p>
+        <a href="allpdf/class10_sanskrit_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2</h5>
+        <p class="card-text post-decription">2 व्यसने मित्रपरीक्षा (गद्यम्)</p>
+        <a href="allpdf/class10_sanskrit_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription"> 3 सूक्तिसुधा (पद्यम्) (कण्ठस्थीकरणार्थम्) </p>
+        <a href="allpdf/class10_sanskrit_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription">4 अमूल्यं कमलम् (गद्यम्) </p>
+        <a href="allpdf/class10_sanskrit_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5</h5>
+        <p class="card-text post-decription"> 5 स एव परमाणुः (संवादः)</p>
+        <a href="allpdf/class10_sanskrit_5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-6</h5>
+        <p class="card-text post-decription">6 युग्ममाला (पद्यम्) (कण्ठस्थीकरणार्थम्)</p>
+        <a href="allpdf/class10_sanskrit_6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-7</h5>
+        <p class="card-text post-decription">7 संस्कृतनाट्ययुग्मम् (संवादः) (सरलार्थलेखनार्थम्) </p>
+        <a href="allpdf/class10_sanskrit_7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-8</h5>
+        <p class="card-text post-decription">8 वाचनप्रशंसा (पद्यम्) (सरलार्थलेखनार्थम्)</p>
+        <a href="allpdf/class10_sanskrit_8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-9</h5>
+        <p class="card-text post-decription">9 धेनोर्व्याघ्रः पलायते (गद्यम्)</p>
+        <a href="allpdf/class10_sanskrit_9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-10</h5>
+        <p class="card-text post-decription"> 10 नदीसूक्तम् (संवादः) (सरलार्थलेखनार्थम्)</p>
+        <a href="allpdf/class10_sanskrit_10.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-11</h5>
+        <p class="card-text post-decription">11 जटायुशौर्यम् (पद्यम्) </p>
+        <a href="allpdf/class10_sanskrit_11.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-12</h5>
+        <p class="card-text post-decription">12 आदिशङ्कराचार्यः (गद्यम्)</p>
+        <a href="allpdf/class10_sanskrit_12.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-13</h5>
+        <p class="card-text post-decription">13 चित्रकाव्यम् (पद्यम्) (कण्ठस्थीकरणार्थम्)</p>
+        <a href="allpdf/class10_sanskrit_13.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-14</h5>
+        <p class="card-text post-decription">14 प्रतिपदं संस्कृतम् (संवादः) </p>
+        <a href="allpdf/class10_sanskrit_14.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sanskrit" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_sanskrit.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sanskrit</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-15</h5>
+        <p class="card-text post-decription">15 मानवताधर्मः (पद्यम्) (सरलार्थलेखनार्थम्)</p>
+        <a href="allpdf/class10_sanskrit_15.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <!-- science -->
+
+    <div class="card post-box science1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.1</h5>
+        <p class="card-text post-decription"> 1 Gravitation</p>
+        <a href="allpdf/class10_science_1.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box science1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.2</h5>
+        <p class="card-text post-decription">2 Periodic Classification of Element</p>
+        <a href="allpdf/class10_science_1.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box science1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.3</h5>
+        <p class="card-text post-decription">3 Chemical reactions and equations</p>
+        <a href="allpdf/class10_science_1.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.4</h5>
+        <p class="card-text post-decription">4 Effects of electric current </p>
+        <a href="allpdf/class10_science_1.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.5</h5>
+        <p class="card-text post-decription"> 5 Heat</p>
+        <a href="allpdf/class10_science_1.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.6</h5>
+        <p class="card-text post-decription">6 Refraction of light </p>
+        <a href="allpdf/class10_science_1.6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.7</h5>
+        <p class="card-text post-decription">7 Lenses </p>
+        <a href="allpdf/class10_science_1.7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.8</h5>
+        <p class="card-text post-decription"> 8 Metallurgy</p>
+        <a href="allpdf/class10_science_1.8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.9</h5>
+        <p class="card-text post-decription"> 9 Carbon Compounds</p>
+        <a href="allpdf/class10_science_1.9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science1" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.10</h5>
+        <p class="card-text post-decription">10 Space Missions</p>
+        <a href="allpdf/class10_science_1.10.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+    <!-- part-2  -->
+
+    <div class="card post-box science2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.1</h5>
+        <p class="card-text post-decription">1 Heredity and Evolution</p>
+        <a href="allpdf/class10_science_2.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box science2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.2</h5>
+        <p class="card-text post-decription">2 Life Processes in Living Organisms Part – 1</p>
+        <a href="allpdf/class10_science_2.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box science2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.3</h5>
+        <p class="card-text post-decription">3 Life Processes in Living Organisms Part – 2</p>
+        <a href="allpdf/class10_science_2.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.4</h5>
+        <p class="card-text post-decription">4 Environmental management</p>
+        <a href="allpdf/class10_science_2.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.5</h5>
+        <p class="card-text post-decription"> 5 Towards Green Energy</p>
+        <a href="allpdf/class10_science_2.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.6</h5>
+        <p class="card-text post-decription">6 Animal Classification </p>
+        <a href="allpdf/class10_science_2.6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.7</h5>
+        <p class="card-text post-decription"> 7 Introduction to Microbiology</p>
+        <a href="allpdf/class10_science_2.7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box science2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.8</h5>
+        <p class="card-text post-decription"> 8 Cell Biology and Biotechnology</p>
+        <a href="allpdf/class10_science_2.8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box science2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.9</h5>
+        <p class="card-text post-decription">9 Social health</p>
+        <a href="allpdf/class10_science_2.9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box science2" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_science2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.10</h5>
+        <p class="card-text post-decription">10 Disaster Management</p>
+        <a href="allpdf/class10_science_2.10.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+    <!-- marathi  -->
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription"> 1 तू बुद्धी दे (प्रार्थना)</p>
+        <a href="allpdf/class10_marathi_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.1</h5>
+        <p class="card-text post-decription">2.1 संतवाणी अंकिला मी दास तुझा-संत नामदेव</p>
+        <a href="allpdf/class10_marathi_2.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.2</h5>
+        <p class="card-text post-decription">2.2 संतवाणी योगी सर्वकाळ सुखदाता-संत एकनाथ</p>
+        <a href="allpdf/class10_marathi_2.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription">3 शाल</p>
+        <a href="allpdf/class10_marathi_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription"> 4 उपास </p>
+        <a href="allpdf/class10_marathi_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4.1</h5>
+        <p class="card-text post-decription">4.1 मोठे होत असलेल्या मुलांनो… (स्थूलवाचन) </p>
+        <a href="allpdf/class10_marathi_4.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5</h5>
+        <p class="card-text post-decription">5 दोन दिवस (कविता)</p>
+        <a href="allpdf/class10_marathi_5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-6</h5>
+        <p class="card-text post-decription">6 चुडीवाला</p>
+        <a href="allpdf/class10_marathi_6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-7</h5>
+        <p class="card-text post-decription">7 फूटप्रिन्टस </p>
+        <a href="allpdf/class10_marathi_7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-8</h5>
+        <p class="card-text post-decription"> 8 ऊर्जाशक्तीचा जागर</p>
+        <a href="allpdf/class10_marathi_8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-8.1</h5>
+        <p class="card-text post-decription"> 8.1 जाता अस्ताला (स्थूलवाचन)</p>
+        <a href="allpdf/class10_marathi_8.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-9</h5>
+        <p class="card-text post-decription">9 औक्षण (कविता)</p>
+        <a href="allpdf/class10_marathi_9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-10</h5>
+        <p class="card-text post-decription">10 रंग साहित्याचे</p>
+        <a href="allpdf/class10_marathi_10.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-11</h5>
+        <p class="card-text post-decription">11 जंगल डायरी</p>
+        <a href="allpdf/class10_marathi_11.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-12</h5>
+        <p class="card-text post-decription">12 रंग मजेचे रंग उदयाचे (कविता)</p>
+        <a href="allpdf/class10_marathi_12.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-12.1</h5>
+        <p class="card-text post-decription">12.1 जगणं कॅक्टसचं (स्थूलवाचन)</p>
+        <a href="allpdf/class10_marathi_12.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-13</h5>
+        <p class="card-text post-decription">13 हिरवंगार झाडासारखं (कविता)</p>
+        <a href="allpdf/class10_marathi_13.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-14</h5>
+        <p class="card-text post-decription">14 बीज पेरले गेले </p>
+        <a href="allpdf/class10_marathi_14.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-15</h5>
+        <p class="card-text post-decription">15 खरा नागरिक</p>
+        <a href="allpdf/class10_marathi_15.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-16</h5>
+        <p class="card-text post-decription"> 16 स्वप्न करू साकार (कविता)</p>
+        <a href="allpdf/class10_marathi_16.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-16.1</h5>
+        <p class="card-text post-decription">16.1 व्युत्पत्ती कोश (स्थूलवाचन)</p>
+        <a href="allpdf/class10_marathi_16.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <!-- hindi  -->
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.1</h5>
+        <p class="card-text post-decription"> 1 भारत महिमा</p>
+        <a href="allpdf/class10_hindi_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.2</h5>
+        <p class="card-text post-decription">2 लक्ष्मी</p>
+        <a href="allpdf/class10_hindi_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.3</h5>
+        <p class="card-text post-decription">3 वाह रे! हमदर्द</p>
+        <a href="allpdf/class10_hindi_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.4</h5>
+        <p class="card-text post-decription">4 मन (पूरक पठन) </p>
+        <a href="allpdf/class10_hindi_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.5</h5>
+        <p class="card-text post-decription">5 गोवा : जैसा मैंने देखा</p>
+        <a href="allpdf/class10_hindi_5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.6</h5>
+        <p class="card-text post-decription"> 6 गिरिधर नागर </p>
+        <a href="allpdf/class10_hindi_6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.7</h5>
+        <p class="card-text post-decription">7 खुला आकाश (पूरक पठन) </p>
+        <a href="allpdf/class10_hindi_7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.8</h5>
+        <p class="card-text post-decription"> 8 गजल</p>
+        <a href="allpdf/class10_hindi_8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.9</h5>
+        <p class="card-text post-decription">9 रीढ़ की हड्डी</p>
+        <a href="allpdf/class10_hindi_9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.10</h5>
+        <p class="card-text post-decription">10 ठेस (पूरक पठन)</p>
+        <a href="allpdf/class10_hindi_10.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.11</h5>
+        <p class="card-text post-decription">11 कृषक गान</p>
+        <a href="allpdf/class10_hindi_11.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.1</h5>
+        <p class="card-text post-decription"> 1 बरषहिं जलद</p>
+        <a href="allpdf/class10_hindi_1.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.2</h5>
+        <p class="card-text post-decription"> 2 दो लघुकथाएँ (पूरक पठन)</p>
+        <a href="allpdf/class10_hindi_1.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.3</h5>
+        <p class="card-text post-decription">3 श्रम साधना</p>
+        <a href="allpdf/class10_hindi_1.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.4</h5>
+        <p class="card-text post-decription">4 छापा </p>
+        <a href="allpdf/class10_hindi_1.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.5</h5>
+        <p class="card-text post-decription">5 ईमानदारी की प्रतिमूर्ति</p>
+        <a href="allpdf/class10_hindi_1.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.6</h5>
+        <p class="card-text post-decription">6 हम उस धरती की संतति हैं (पूरक पठन)</p>
+        <a href="allpdf/class10_hindi_1.6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.7</h5>
+        <p class="card-text post-decription">7 महिला आश्रम </p>
+        <a href="allpdf/class10_hindi_1.7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.8</h5>
+        <p class="card-text post-decription"> 8 अपनी गंध नहीं बेचूँगा</p>
+        <a href="allpdf/class10_hindi_1.8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.9</h5>
+        <p class="card-text post-decription"> 9 जब तक जिंदा रहूँ, लिखता रहूँ</p>
+        <a href="allpdf/class10_hindi_1.9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.10</h5>
+        <p class="card-text post-decription">10 बूढ़ी काकी (पूरक पऊन)</p>
+        <a href="allpdf/class10_hindi_1.10.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box hindi" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_hindi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">hindi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.11</h5>
+        <p class="card-text post-decription">11 समता की ओर</p>
+        <a href="allpdf/class10_hindi_1.11.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <!-- english  -->
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">UNIT-1</h5>
+        <p class="card-text post-decription">1.1 Where the mind is Without fear
+          1.2 The Thief’s Story 1.3 On Wings of Courage 1.4 All the World’s a Stage 1.5 Joan of Arc 1.6 The Alchemy of
+          Nature
+        </p>
+        <a href="allpdf/class10_english_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">UNIT-2</h5>
+        <p class="card-text post-decription"> 2.1 Animals
+          2.2 Three Questions
+          2.3 Connecting the Dots
+          2.4 The Pulley
+          2.5 Let’s March
+          2.6 Science and Spirituality</p>
+        <a href="allpdf/class10_english_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">UNIT-3</h5>
+        <p class="card-text post-decription"> 3.1 Night of the Scorpion
+          3.2 The Night I Met Einstein
+          3.3 Stephen Hawking
+          3.4 The Will to Win
+          3.5 Unbeatable Super Mom-Mary Kom
+          3.6 The Concert</p>
+        <a href="allpdf/class10_english_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">UNIT-4</h5>
+        <p class="card-text post-decription"> 4.1 A Thing of Beauty is a Joy For Ever
+          4.2 The Luncheon
+          4.3 World Heritage
+          4.4 The Height of the Ridiculous
+          4.5 The Old Man and The Sea Book Review
+          4.6 The Gift of the Magi</p>
+        <a href="allpdf/class10_english_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <!-- history  -->
+
+    <div class="card post-box history" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">history</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription">1 Historiography Development in the West</p>
+        <a href="allpdf/class10_history_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box history" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">history</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2</h5>
+        <p class="card-text post-decription">2 Historiography Indian Tradition</p>
+        <a href="allpdf/class10_history_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box history" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">history</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription">3 Applied History</p>
+        <a href="allpdf/class10_history_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box history" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">history</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription">4 History of Indian Arts </p>
+        <a href="allpdf/class10_history_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box history" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">history</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5</h5>
+        <p class="card-text post-decription">5 Mass Media and History</p>
+        <a href="allpdf/class10_history_5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box history" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">history</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-6</h5>
+        <p class="card-text post-decription">6 Entertainment and History </p>
+        <a href="allpdf/class10_history_6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box history" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">history</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-7</h5>
+        <p class="card-text post-decription">7 Sports and History</p>
+        <a href="allpdf/class10_history_7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box history" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">history</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-8</h5>
+        <p class="card-text post-decription"> 8 Tourism and History</p>
+        <a href="allpdf/class10_history_8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box history" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">history</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-9</h5>
+        <p class="card-text post-decription">9 Heritage Management</p>
+        <a href="allpdf/class10_history_9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+    <!-- geography  -->
+
+    <div class="card post-box geography" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_geography.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">geography</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription">1 Field Visit</p>
+        <a href="allpdf/class10_geography_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box geography" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_geography.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">geography</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2</h5>
+        <p class="card-text post-decription">2 Location and Extent</p>
+        <a href="allpdf/class10_geography_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box geography" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_geography.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">geography</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription">3 Physiography and Drainage</p>
+        <a href="allpdf/class10_geography_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box geography" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_geography.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">geography</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription">4 Climate </p>
+        <a href="allpdf/class10_geography_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box geography" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_geography.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">geography</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5</h5>
+        <p class="card-text post-decription">5 Natural Vegetation and Wildlife</p>
+        <a href="allpdf/class10_geography_5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box geography" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_geography.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">geography</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-6</h5>
+        <p class="card-text post-decription">6 Population</p>
+        <a href="allpdf/class10_geography_6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box geography" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_geography.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">geography</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-7</h5>
+        <p class="card-text post-decription">7 Human Settlements</p>
+        <a href="allpdf/class10_geography_7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box geography" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_geography.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">geography</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-8</h5>
+        <p class="card-text post-decription">8 Economy and Occupations</p>
+        <a href="allpdf/class10_geography_8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box geography" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_geography.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">geography</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-9</h5>
+        <p class="card-text post-decription">9 Tourism, Transport and Communication</p>
+        <a href="allpdf/class10_geography_9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+    <!-- political_science -->
+
+    <div class="card post-box political_science" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">political_science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription">1 Working of the Constitution</p>
+        <a href="allpdf/class10_political_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box political_science" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">political_science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2</h5>
+        <p class="card-text post-decription">2 The Electoral Process</p>
+        <a href="allpdf/class10_political_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box political_science" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">political_science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription">3 Political Parties</p>
+        <a href="allpdf/class10_political_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box political_science" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">political_science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription">4 Social and Political Movements </p>
+        <a href="allpdf/class10_political_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box political_science" style="width: 18rem; height: 40rem;">
+      <img src="image/img10_history.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">political_science</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5</h5>
+        <p class="card-text post-decription">5 Challenges faced by Indian Democracy</p>
+        <a href="allpdf/class10_political_5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </footer>
+  <!-- <p> &#169; IMPbook All Right reserved </p> -->
+  <div class="social">
+    <a href="#"><i class='bx bxl-facebook-square'></i></a>
+    <a href="#"><i class='bx bxl-twitter'></i></a>
+    <a href="#"><i class='bx bxl-linkedin'></i></a>
+    <a href="#"><i class='bx bxl-instagram'></i></a>
+
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery link -->
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+
+
+  <!-- link to js  -->
+  <script src="scripting.js"></script>
+  <script src="search.js"></script>
+
+
+  <!-- search -->
+
+
+
+</body>
+
+</html>

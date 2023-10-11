@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMPbook</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <style>
+    /* CSS code goes here */
+    /* google font  */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
+    * {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      scroll-padding-top: 2rem;
+      box-sizing: border-box;
+    }
+
+    /* rest of your CSS code */
+    /* ... */
+  </style>
+</head>
+
+<body>
+  <!-- header  -->
+  <nav class="navbar bg-primary navbar-expand-lg body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="/index.html"> <img src="image/icon4.png" alt=""></a>
+      <div class="brand">AllGuideSite</div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" id="myInput" placeholder="Chapter Name" onkeyup="search()"
+            aria-label="Search">
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- home -->
+  <section class="home" id="home">
+    <div class="home-text container">
+      <!-- <img src="home.jpg" alt=""> -->
+      <h2 class="home-title">Study Smart Study Hard</h2>
+      <span class="home-subtitle">11th Commerce</span>
+    </div>
+  </section>
+  <!-- filter  -->
+
+
+
+
+  <div class="post-filter container">
+
+
+    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Subject
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item filter-item" href="#" data-filter='mathsp1'>Maths-1</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='mathsp2'>Maths-2</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='english'>English</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='it'>It</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='economics'>Economics</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='account'>Accounts</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='sp '>Sp</a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='marathi'>Marathi </a></li>
+      <li><a class="dropdown-item filter-item" href="#" data-filter='ocm'>Ocm </a></li>
+
+    </ul>
+  </div>
+
+  <section class="post container" id="myTable">
+
+
+    <!-- maths  -->
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.1</h5>
+        <p class="card-text post-decription">1 Sets and Relations</p>
+        <a href="allpdf/class11_c_maths_1.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.2</h5>
+        <p class="card-text post-decription">2 Functions</p>
+        <a href="allpdf/class11_c_maths_1.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.3</h5>
+        <p class="card-text post-decription"> 3 Complex Numbers</p>
+        <a href="allpdf/class11_c_maths_1.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.4</h5>
+        <p class="card-text post-decription"> 4 Sequences and Series</p>
+        <a href="allpdf/class11_c_maths_1.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.5</h5>
+        <p class="card-text post-decription">5 Locus and Straight Line</p>
+        <a href="allpdf/class11_c_maths_1.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.6</h5>
+        <p class="card-text post-decription">6 Determinants</p>
+        <a href="allpdf/class11_c_maths_1.6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.7</h5>
+        <p class="card-text post-decription">7 Limits</p>
+        <a href="allpdf/class11_c_maths_1.7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.8</h5>
+        <p class="card-text post-decription">8 Continuity</p>
+        <a href="allpdf/class11_c_maths_1.8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp1" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths1.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1.9</h5>
+        <p class="card-text post-decription">9 Differentiation</p>
+        <a href="allpdf/class11_c_maths_1.9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <!-- part 2  -->
+
+
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.1</h5>
+        <p class="card-text post-decription">1 Partition Values </p>
+        <a href="allpdf/class11_c_maths_2.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.2</h5>
+        <p class="card-text post-decription">2 Measures of Dispersion</p>
+        <a href="allpdf/class11_c_maths_2.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.3</h5>
+        <p class="card-text post-decription">3 Skewness</p>
+        <a href="allpdf/class11_c_maths_2.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.4</h5>
+        <p class="card-text post-decription"> 4 Bivariate Frequency Distribution and Chi Square</p>
+        <a href="allpdf/class11_c_maths_2.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.5</h5>
+        <p class="card-text post-decription">5 Correlation</p>
+        <a href="allpdf/class11_c_maths_2.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.6</h5>
+        <p class="card-text post-decription">6 Permutations and Combinations</p>
+        <a href="allpdf/class11_c_maths_2.6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.7</h5>
+        <p class="card-text post-decription">7 Probability</p>
+        <a href="allpdf/class11_c_maths_2.7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.8</h5>
+        <p class="card-text post-decription">8 Linear Inequations</p>
+        <a href="allpdf/class11_c_maths_2.8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box mathsp2" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_maths2.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">maths</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2.9</h5>
+        <p class="card-text post-decription">9 Commercial Mathematics</p>
+        <a href="allpdf/class11_c_maths_2.9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <!-- english  -->
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-1.1</h5>
+        <p class="card-text post-decription">1.1 Being Neighborly</p>
+        <a href="allpdf/class11_acs_english_1.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-1.2</h5>
+        <p class="card-text post-decription">1.2 On To The Summenglish: We Reach The Top</p>
+        <a href="allpdf/class11_acs_english_1.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-1.3</h5>
+        <p class="card-text post-decription">1.3 The Call of the Soil</p>
+        <a href="allpdf/class11_acs_english_1.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-1.4</h5>
+        <p class="card-text post-decription">1.4 Pillars of Democracy</p>
+        <a href="allpdf/class11_acs_english_1.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-1.5</h5>
+        <p class="card-text post-decription">1.5 Mrs. Adis</p>
+        <a href="allpdf/class11_acs_english_1.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-1.6</h5>
+        <p class="card-text post-decription"> 1.6 Tiger Hills</p>
+        <a href="allpdf/class11_acs_english_1.6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-2.1</h5>
+        <p class="card-text post-decription">2.1 Cherry Tree </p>
+        <a href="allpdf/class11_acs_english_2.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-2.2</h5>
+        <p class="card-text post-decription">2.2 The Sower</p>
+        <a href="allpdf/class11_acs_english_2.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-2.3</h5>
+        <p class="card-text post-decription">2.3 There is Another Sky</p>
+        <a href="allpdf/class11_acs_english_2.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-2.4</h5>
+        <p class="card-text post-decription">2.4 Upon Westminster Bridge</p>
+        <a href="allpdf/class11_acs_english_2.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-2.5</h5>
+        <p class="card-text post-decription">2.5 Nose Versus Eyes</p>
+        <a href="allpdf/class11_acs_english_2.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-2.6</h5>
+        <p class="card-text post-decription">2.6 The Planners</p>
+        <a href="allpdf/class11_acs_english_2.6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-3.1</h5>
+        <p class="card-text post-decription">3.1 Expansion of Ideas</p>
+        <a href="allpdf/class11_acs_english_3.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-3.2</h5>
+        <p class="card-text post-decription">3.2 Blog Wrenglishing</p>
+        <a href="allpdf/class11_acs_english_3.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-3.3</h5>
+        <p class="card-text post-decription">3.3 E-mails</p>
+        <a href="allpdf/class11_acs_english_3.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-3.4</h5>
+        <p class="card-text post-decription">3.4 Interview</p>
+        <a href="allpdf/class11_acs_english_3.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-3.5</h5>
+        <p class="card-text post-decription">3.5 Film Review</p>
+        <a href="allpdf/class11_acs_english_3.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-3.6</h5>
+        <p class="card-text post-decription">3.6 The Art of Compering</p>
+        <a href="allpdf/class11_acs_english_3.6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-4.1</h5>
+        <p class="card-text post-decription">4.1 History of English Drama</p>
+        <a href="allpdf/class11_acs_english_4.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-4.2</h5>
+        <p class="card-text post-decription">4.2 The Rising of the Moon</p>
+        <a href="allpdf/class11_acs_english_4.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-4.3</h5>
+        <p class="card-text post-decription">4.3 Extracts of Drama – (A) A Midsummer – Night’s Dream</p>
+        <a href="allpdf/class11_acs_english_4.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box english" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_english.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">english</h2>
+      <div class="card-body">
+        <h5 class="card-tenglishle post-tenglishle">chapter-4.4</h5>
+        <p class="card-text post-decription">4.3 Extracts of Drama – (B) An Enemy of the People</p>
+        <a href="allpdf/class11_acs_english_4.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <!-- information technology  -->
+
+    <div class="card post-box it" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_asc_it.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">it</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription">1 Basics of Information Technology</p>
+        <a href="allpdf/class11_acs_it_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box it" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_asc_it.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">it</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2</h5>
+        <p class="card-text post-decription">2 Introduction to DBMS</p>
+        <a href="allpdf/class11_acs_it_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box it" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_asc_it.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">it</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription">3 Impressive Web Designing</p>
+        <a href="allpdf/class11_acs_it_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box it" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_asc_it.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">it</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription">4 Cyber Law</p>
+        <a href="allpdf/class11_acs_it_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <div class="card post-box it" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_asc_it.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">it</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription">1 Daily Computing (Libre Office)</p>
+        <a href="allpdf/class11_acs_it_2.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box it" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_asc_it.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">it</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2</h5>
+        <p class="card-text post-decription">2 Web Designing (HTML – 5)</p>
+        <a href="allpdf/class11_acs_it_2.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box it" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_asc_it.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">it</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription">3 Client Side Scripting (JavaScript)</p>
+        <a href="allpdf/class11_acs_it_2.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box it" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_asc_it.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">it</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription">4 Accounting Package (GNUKhata)</p>
+        <a href="allpdf/class11_acs_it_2.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box it" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_asc_it.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">it</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5</h5>
+        <p class="card-text post-decription"> 5 Digital Content Creation (GIMP, Inkscape) </p>
+        <a href="allpdf/class11_acs_it_2.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box it" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_asc_it.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">it</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-6</h5>
+        <p class="card-text post-decription">6 DBMS (PostgreSQL) </p>
+        <a href="allpdf/class11_acs_it_2.6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- economics  -->
+
+    <div class="card post-box economics" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_economics.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">economics</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription">1 Basic Concepts in Economics</p>
+        <a href="allpdf/class11_c_economics_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box economics" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_economics.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">economics</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2</h5>
+        <p class="card-text post-decription">2 Money</p>
+        <a href="allpdf/class11_c_economics_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box economics" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_economics.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">economics</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription">3 Partition Values</p>
+        <a href="allpdf/class11_c_economics_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box economics" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_economics.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">economics</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription">4 The Economy of Maharashtra</p>
+        <a href="allpdf/class11_c_economics_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box economics" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_economics.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">economics</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5</h5>
+        <p class="card-text post-decription"> 5 Rural Development in India </p>
+        <a href="allpdf/class11_c_economics_5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box economics" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_economics.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">economics</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-6</h5>
+        <p class="card-text post-decription">6 Population in India </p>
+        <a href="allpdf/class11_c_economics_6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box economics" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_economics.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">economics</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-7</h5>
+        <p class="card-text post-decription">7 Unemployment in India</p>
+        <a href="allpdf/class11_c_economics_7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box economics" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_economics.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">economics</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-8</h5>
+        <p class="card-text post-decription">8 Poverty in India</p>
+        <a href="allpdf/class11_c_economics_8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box economics" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_economics.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">economics</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-9</h5>
+        <p class="card-text post-decription"> 9 Economic Policy of India Since 1991</p>
+        <a href="allpdf/class11_c_economics_9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box economics" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_economics.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">economics</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-10</h5>
+        <p class="card-text post-decription">10 Economic Planning in India</p>
+        <a href="allpdf/class11_c_economics_10.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <!-- account  -->
+
+    <div class="card post-box account" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_accounts.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">accounts</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription">1 Introduction to Book Keeping and Accountancy</p>
+        <a href="allpdf/class11_c_account_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box account" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_accounts.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">accounts</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2</h5>
+        <p class="card-text post-decription">2 Meaning and Fundamentals of Double Entry Book-Keeping</p>
+        <a href="allpdf/class11_c_account_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box account" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_accounts.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">accounts</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription"> 3 Journal</p>
+        <a href="allpdf/class11_c_account_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box account" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_accounts.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">accounts</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription">4 Ledger</p>
+        <a href="allpdf/class11_c_account_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box account" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_accounts.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">accounts</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5</h5>
+        <p class="card-text post-decription"> 5 Subsidiary Books </p>
+        <a href="allpdf/class11_c_account_5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box account" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_accounts.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">accounts</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-6</h5>
+        <p class="card-text post-decription">6 Bank Reconciliation Statement </p>
+        <a href="allpdf/class11_c_account_6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box account" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_accounts.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">accounts</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-7</h5>
+        <p class="card-text post-decription">7 Depreciationa</p>
+        <a href="allpdf/class11_c_account_7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box account" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_accounts.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">accounts</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-8</h5>
+        <p class="card-text post-decription">8 Rectification of Errors</p>
+        <a href="allpdf/class11_c_account_8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box account" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_accounts.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">accounts</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-9</h5>
+        <p class="card-text post-decription"> 9 Final Accounts of a Proprietary Concern</p>
+        <a href="allpdf/class11_c_account_9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box account" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_accounts.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">accounts</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-10</h5>
+        <p class="card-text post-decription">10 Single Entry System</p>
+        <a href="allpdf/class11_c_account_10.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <!-- sp  -->
+
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription">1 Secretary</p>
+        <a href="allpdf/class11_c_sp_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2</h5>
+        <p class="card-text post-decription"> 2 Joint Stock Company</p>
+        <a href="allpdf/class11_c_sp_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription">3 Formation of a Company</p>
+        <a href="allpdf/class11_c_sp_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription">4 Documents Related to Formation of a Company</p>
+        <a href="allpdf/class11_c_sp_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5</h5>
+        <p class="card-text post-decription"> 5 Members of a Company </p>
+        <a href="allpdf/class11_c_sp_5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-6</h5>
+        <p class="card-text post-decription">6 Directors and Key Managerial Personnel of a Company </p>
+        <a href="allpdf/class11_c_sp_6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-7</h5>
+        <p class="card-text post-decription">7 Company Meetings – I</p>
+        <a href="allpdf/class11_c_sp_7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-8</h5>
+        <p class="card-text post-decription">8 Company Meetings – II</p>
+        <a href="allpdf/class11_c_sp_8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-9</h5>
+        <p class="card-text post-decription"> 9 Business Communication Skills of a Secretary</p>
+        <a href="allpdf/class11_c_sp_9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-10</h5>
+        <p class="card-text post-decription">10 Correspondence with Directors</p>
+        <a href="allpdf/class11_c_sp_10.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-11</h5>
+        <p class="card-text post-decription">11 Correspondence with Banks</p>
+        <a href="allpdf/class11_c_sp_11.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box sp" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_sp.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">sp</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-12</h5>
+        <p class="card-text post-decription">12 Correspondence with Statutory Authorities</p>
+        <a href="allpdf/class11_c_sp_12.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+    <!-- marathi -->
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription">1 मामू</p>
+        <a href="allpdf/class11_ac_marathi_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2</h5>
+        <p class="card-text post-decription">2 प्राणसई</p>
+        <a href="allpdf/class11_ac_marathi_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription">3 अशी पुस्तकं</p>
+        <a href="allpdf/class11_ac_marathi_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription">4 झाडांच्या मनात जाऊ</p>
+        <a href="allpdf/class11_ac_marathi_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5</h5>
+        <p class="card-text post-decription"> 5 परिमळ </p>
+        <a href="allpdf/class11_ac_marathi_5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-6</h5>
+        <p class="card-text post-decription">6 दवांत आलिस भल्या पहाटीं </p>
+        <a href="allpdf/class11_ac_marathi_6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-7</h5>
+        <p class="card-text post-decription">7 ‘माणूस’ बांधूया!</p>
+        <a href="allpdf/class11_ac_marathi_7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-8</h5>
+        <p class="card-text post-decription"> 8 ऐसीं अक्षरें रसिके</p>
+        <a href="allpdf/class11_ac_marathi_8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-9</h5>
+        <p class="card-text post-decription"> 9 वहिनींचा ‘सुसाट’ सल्ला</p>
+        <a href="allpdf/class11_ac_marathi_9.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-10</h5>
+        <p class="card-text post-decription">10 शब्द</p>
+        <a href="allpdf/class11_ac_marathi_10.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-11</h5>
+        <p class="card-text post-decription"> 11 वाङ्‌मयीन लेण्याचा शिल्पकार</p>
+        <a href="allpdf/class11_ac_marathi_11.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-12</h5>
+        <p class="card-text post-decription"> 12 पैंजण</p>
+        <a href="allpdf/class11_ac_marathi_12.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription">3 नाटक- साहित्यप्रकार-परिचय</p>
+        <a href="allpdf/class11_ac_marathi_3.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3.1</h5>
+        <p class="card-text post-decription"> 3.1 हसवाफसवी</p>
+        <a href="allpdf/class11_ac_marathi_3.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3.2</h5>
+        <p class="card-text post-decription"> 3.2 ध्यानीमनी</p>
+        <a href="allpdf/class11_ac_marathi_3.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3.3</h5>
+        <p class="card-text post-decription">3.3 सुंदर मी होणार</p>
+        <a href="allpdf/class11_ac_marathi_3.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4.1</h5>
+        <p class="card-text post-decription">4.1 सूत्रसंचालन</p>
+        <a href="allpdf/class11_ac_marathi_4.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4.2</h5>
+        <p class="card-text post-decription">4.2 मुद्रितशोधन</p>
+        <a href="allpdf/class11_ac_marathi_4.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4.3</h5>
+        <p class="card-text post-decription">4.3 अनुवाद</p>
+        <a href="allpdf/class11_ac_marathi_4.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4.4</h5>
+        <p class="card-text post-decription">4.4 अनुदिनी (ब्लॉग) लेखन</p>
+        <a href="allpdf/class11_ac_marathi_4.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4.5</h5>
+        <p class="card-text post-decription">4.5 रेडिओजॉकी</p>
+        <a href="allpdf/class11_ac_marathi_4.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5.1</h5>
+        <p class="card-text post-decription">5.1 शब्दशक्ती</p>
+        <a href="allpdf/class11_ac_marathi_5.1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5.2</h5>
+        <p class="card-text post-decription"> 5.2 काव्यगुण</p>
+        <a href="allpdf/class11_ac_marathi_5.2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5.3</h5>
+        <p class="card-text post-decription">5.3 वाक्यसंश्लेषण</p>
+        <a href="allpdf/class11_ac_marathi_5.3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5.4</h5>
+        <p class="card-text post-decription">5.4 काळ</p>
+        <a href="allpdf/class11_ac_marathi_5.4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5.5</h5>
+        <p class="card-text post-decription">5.5 शब्दभेद</p>
+        <a href="allpdf/class11_ac_marathi_5.5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5.1</h5>
+        <p class="card-text post-decription">शब्दसिद्धी</p>
+        <a href="allpdf/class11_ac_marathi_vakren1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5.2</h5>
+        <p class="card-text post-decription">शब्दांच्या जाती</p>
+        <a href="allpdf/class11_ac_marathi_vakren2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5.3</h5>
+        <p class="card-text post-decription">विरामचिन्हे</p>
+        <a href="allpdf/class11_ac_marathi_vakren3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5.4</h5>
+        <p class="card-text post-decription">गटात न बसणारा शब्द</p>
+        <a href="allpdf/class11_ac_marathi_vakren4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5.5</h5>
+        <p class="card-text post-decription">पारिभाषिक शब्द</p>
+        <a href="allpdf/class11_ac_marathi_vakren5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box marathi" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_ac_marathi.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">marathi</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5.5</h5>
+        <p class="card-text post-decription">निबंध लेखन</p>
+        <a href="allpdf/class11_ac_marathi_vakren6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <!-- ocm  -->
+
+
+    <div class="card post-box ocm" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_ocm.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">ocm</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-1</h5>
+        <p class="card-text post-decription">1 Introduction of Commerce and Business</p>
+        <a href="allpdf/class11_c_ocm_1.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box ocm" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_ocm.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">ocm</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-2</h5>
+        <p class="card-text post-decription"> 2 Trade</p>
+        <a href="allpdf/class11_c_ocm_2.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+    <div class="card post-box ocm" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_ocm.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">ocm</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-3</h5>
+        <p class="card-text post-decription">3 Small Scale Industry and Business</p>
+        <a href="allpdf/class11_c_ocm_3.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box ocm" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_ocm.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">ocm</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-4</h5>
+        <p class="card-text post-decription">4 Forms of Business Organisation – I</p>
+        <a href="allpdf/class11_c_ocm_4.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box ocm" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_ocm.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">ocm</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-5</h5>
+        <p class="card-text post-decription"> 5 Forms of Business Organisation – II </p>
+        <a href="allpdf/class11_c_ocm_5.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box ocm" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_ocm.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">ocm</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-6</h5>
+        <p class="card-text post-decription">6 Institutes Supporting Business </p>
+        <a href="allpdf/class11_c_ocm_6.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box ocm" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_ocm.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">ocm</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-7</h5>
+        <p class="card-text post-decription">7 Business Environment</p>
+        <a href="allpdf/class11_c_ocm_7.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+    <div class="card post-box ocm" style="width: 18rem; height: 40rem;">
+      <img src="image/img11_c_ocm.jpg" class="card-img-top post-img" alt="...">
+      <h2 class="category">ocm</h2>
+      <div class="card-body">
+        <h5 class="card-title post-title">chapter-8</h5>
+        <p class="card-text post-decription">8 Introduction to Management</p>
+        <a href="allpdf/class11_c_ocm_8.pdf" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div>
+
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </footer>
+  <!-- <p> &#169; IMPbook All Right reserved </p> -->
+  <div class="social">
+    <a href="#"><i class='bx bxl-facebook-square'></i></a>
+    <a href="#"><i class='bx bxl-twitter'></i></a>
+    <a href="#"><i class='bx bxl-linkedin'></i></a>
+    <a href="#"><i class='bx bxl-instagram'></i></a>
+
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery link -->
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+
+
+  <!-- link to js  -->
+  <script src="scripting.js"></script>
+  <script src="search.js"></script>
+
+
+  <!-- search -->
+
+
+
+</body>
+
+</html>
